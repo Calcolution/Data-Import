@@ -29,7 +29,7 @@ password = input("Enter password: ").strip() # '123*testinG'
 if server and database and username and password:
     try:
         connection = pyodbc.connect(
-            "DRIVER={ODBC Driver 17 for SQL Server};"
+            "DRIVER={ODBC Driver 18 for SQL Server};"
             f"SERVER={server};"
             f"DATABASE={database};"
             f"UID={username};"
